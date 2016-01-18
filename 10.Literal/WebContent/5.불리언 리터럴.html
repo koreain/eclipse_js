@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script >
+/*
+ *  불리언 리터럴 : 참/거짓의 진리 값 두가지를 표현.
+ 		- true 혹은 false 값을 가짐
+ 		- 불리언 값은 일반적으로 비교의 결과로 생성됨.
+ 		- 불리언 값은 산술연산에서 true는 숫자로 1, false는 숫자로 0 으로 변환된다.
+ */
+ 
+	var score=80;
+	var message='불합격';
+	
+	if(score>=70)
+		{
+			message='합격';
+		}
+	document.write(score+'점은 '+message+'입니다.');
+	
+	var a=0; //초기값 false
+	var b=undefined; //초기값 false
+	var c=null; //초기값 false
+	var d=NaN; //초기값 false
+	var e=""; //초기값 false
+	
+	document.write('!0=>'+!a+'<br/>'); //true 
+	document.write('!undefined=>'+!b+'<br/>'); //true
+	document.write('!null=>'+!c+'<br/>'); //true
+	document.write('!NaN=>'+!d+'<br/>'); //true
+	document.write('!""'+!e+'<br/>'); //true
+	
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>
